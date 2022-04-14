@@ -60,6 +60,11 @@ p.about-para {
   letter-spacing: 0.5px;
   color: #767272;
 }
+.navbar-light .navbar-nav .nav-link {
+    /* color: rgba(0,0,0,.55); */
+    font-weight: 700;
+    color: white;
+}
 
 .first-para {
   -webkit-animation: firstpara 2s 0.5s both;
