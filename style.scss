@@ -1,0 +1,278 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.55);
+  color: white !important;
+  font-weight: 700;
+}
+.logoimg {
+    width: 70px;
+    height: 70px;
+}
+
+.carousel-caption {
+  top: 50% !important;
+}
+.about-img img {
+  height: 400px;
+  width: 100%;
+}
+// whatsapp icon css start
+
+a.q8c6tt-0.gbAWcy {
+  background: #04ff00 !important;
+}
+.gbAWcy {
+  width: 75px !important;
+  height: 75px !important;
+  order: 2;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  cursor: pointer;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.4) 2px 2px 6px;
+  transition: all 0.5s ease 0s;
+  position: relative;
+  z-index: 200;
+  display: block;
+  border: 0px;
+  background-color: rgb(12 255 0) !important;
+}
+a.sc-7dvmpp-1.dfBDQI {
+  display: none;
+}
+
+.jlzTty {
+  background: rgb(12 255 0) !important;
+}
+
+.jlzTty {
+  width: 70px !important;
+  height: 70px !important;
+}
+svg {
+  background: #00ff37 !important;
+}
+
+//  end
+
+img.img34.edel {
+  height: 71px;
+  margin-bottom: 10px;
+}
+
+// animation slider
+.first {
+  animation: slide1 2s 0.5s both;
+  animation-iteration-count: 3;
+  position: absolute;
+  left: 50%;
+  font-size: 35px;
+  transform: translate(-50%, -50%);
+}
+@keyframes slide1 {
+  0% {
+    top: -200px;
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    top: 8%;
+  }
+}
+p.about-para {
+  letter-spacing: 0.5px;
+  color: #767272;
+}
+.first-para {
+  animation: firstpara 2s 0.5s both;
+  animation-iteration-count: 3;
+  position: absolute;
+  top: 20%;
+}
+.item.itempimg {
+  border: 1px solid whitesmoke;
+  box-shadow: 2px 2px 2px whitesmoke;
+}
+@keyframes firstpara {
+  0% {
+    right: -100px;
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    right: 25%;
+  }
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 20%;
+  background-color: blue;
+}
+
+// end
+
+// Blog section
+
+.inner-wrapper {
+  height: 180px;
+  box-shadow: 0px 10px 33px -17px rgb(0 0 0 / 60%);
+  border-radius: 30px;
+  background: linear-gradient(
+    to right,
+    rgb(119 167 255 / 80%),
+    rgb(171 225 212 / 60%),
+    rgb(144 120 233 / 80%)
+  );
+}
+
+.readmore {
+  font-weight: 300 !important;
+  padding: 0%;
+}
+.gainerstable.loose {
+  background: #6f6ff5;
+}
+table.table.table-loosers {
+  color: white;
+}
+.edelwise {
+  height: 100px;
+}
+.imgwrapper {
+  // border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 2px 3px 4px #b9b2b2;
+  border-radius: 10px;
+  height: 155px;
+}
+img.img34 {
+  height: 100px;
+}
+a.demat {
+  width: 171px;
+  text-align: center;
+  height: 32px;
+  border: 1px solid blue;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.refercontent {
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+.mobile {
+  margin-top: 20px;
+}
+.gainerstable {
+  height: 378px;
+  min-height: 378px;
+  max-height: 400px;
+  background-color: aliceblue;
+}
+.shadow {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+// .HR {
+//     margin:  5px 0 !important;
+
+// }
+
+.teampaisa {
+  background: linear-gradient(
+    to right,
+    rgba(231, 55, 114, 0.8),
+    rgba(132, 88, 235, 0.8)
+  );
+  border-radius: 30px;
+}
+
+.paisa-member {
+  border: 1px dotted white;
+  background-color: linear-gradient(
+    rgba(231, 55, 114, 0.8),
+    rgba(235, 88, 88, 0.8)
+  );
+  box-shadow: 2px 4px 5px whitesmoke;
+  border-radius: 10px;
+}
+.refer {
+  background-color: rgb(248, 244, 244);
+}
+.num {
+  font-size: 32px;
+}
+.demat:hover  {
+    color: white;
+    background-color: rgb(40, 18, 132);
+    transition: all 0.2s ease-in-out;
+}
+
+// footer section
+
+ul.social {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  padding: 10px 2px;
+}
+ul.contactme {
+  list-style: none;
+  text-decoration: none;
+  margin-left: -35px;
+}
+.contactme li a {
+  text-decoration: none;
+}
+section#contactus {
+  background: aquamarine;
+  margin-top: 20px;
+}
+
+.footy {
+  height: 30px;
+}
+
+// footer end
+
+// Media Query
+
+@media (max-width: 768px) {
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 20%;
+    background-color: blue;
+  }
+  .mobile {
+    margin: 30px 0 !important;
+  }
+  .col-md-4.col-lg-4.col-sm-12.col-xs-12.shadow.medium {
+    margin: 20px 0px;
+  }
+  .logoimg {
+    width: 50px;
+    height: 50px;
+}
+}
